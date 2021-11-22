@@ -336,3 +336,123 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Building-blocks-game-repository\Building blocks Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ben\Documents\GitHub\Building-blocks-game-repository\Building blocks Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 3.469400 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.941100 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1280.274903 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabDarkGround 1.mat
+  artifactKey: Guid(736f3ed98ab083d40b4a8ca2d6939541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabDarkGround 1.mat using Guid(736f3ed98ab083d40b4a8ca2d6939541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95bb9e15a4f777576c76a160f3400d2') in 0.265284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabRocksColored 1.mat
+  artifactKey: Guid(0b382fede237942438fc398d30f77a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabRocksColored 1.mat using Guid(0b382fede237942438fc398d30f77a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99914f3952440fe8376640e2b4d321df') in 0.025408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabGemsFlat 1.mat
+  artifactKey: Guid(e2a4cf37a00d24141a32cabc705a0465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabGemsFlat 1.mat using Guid(e2a4cf37a00d24141a32cabc705a0465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09733fbadfb040146d20dcb4f6a1fdb') in 0.029743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabRoots 1.mat
+  artifactKey: Guid(b1b87c713b559d447a00859bf6dbcb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabRoots 1.mat using Guid(b1b87c713b559d447a00859bf6dbcb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d71cee05a6dd66c428a34b19899cbac') in 0.023775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabGrassPretty 1.mat
+  artifactKey: Guid(386446aed61f3414c93916c9d70aae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabGrassPretty 1.mat using Guid(386446aed61f3414c93916c9d70aae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50291001891425e277e1bf8484ccbd4') in 0.024621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabFlatRocks 1.mat
+  artifactKey: Guid(9ba33f2542bc3e84b9c202d67e0cf4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabFlatRocks 1.mat using Guid(9ba33f2542bc3e84b9c202d67e0cf4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389c4c1d8e2bd61ddefcab243f5bc89f') in 0.024347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabDirt 1.mat
+  artifactKey: Guid(9ae4de3062e2e4e4ca6669894b4a5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabDirt 1.mat using Guid(9ae4de3062e2e4e4ca6669894b4a5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9fe41cd9b4235ed859161a97e6b0da') in 0.031203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabInferno 1.mat
+  artifactKey: Guid(1f6b973261fe92a438c8c83b2e38320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabInferno 1.mat using Guid(1f6b973261fe92a438c8c83b2e38320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f81637b80a0291b5dc88ec9e34151d') in 0.023851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabGrassLong 1.mat
+  artifactKey: Guid(07f59fa7958f2f848af7986f935512ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabGrassLong 1.mat using Guid(07f59fa7958f2f848af7986f935512ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a505a356722fbc94f9c4fed47a24e45') in 0.030575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/GrayLabMagicGroundTextures/Materials/GrayLabSweetSand 1.mat
+  artifactKey: Guid(42e67be60e4ebe24c9784b6fc7b43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrayLabMagicGroundTextures/Materials/GrayLabSweetSand 1.mat using Guid(42e67be60e4ebe24c9784b6fc7b43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd460b2a7af81934b8dfade8b866087') in 0.024269 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
