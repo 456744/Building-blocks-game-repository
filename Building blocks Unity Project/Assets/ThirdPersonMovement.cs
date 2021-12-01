@@ -15,6 +15,13 @@ public class ThirdPersonMovement : MonoBehaviour
 
     float turnSmoothVelocity;
 
+    float startingY;
+
+    private void Start()
+    {
+        startingY = transform.position.y;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -33,6 +40,9 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+        Vector3 currentPosition = transform.position;
+        currentPosition.y = startingY;
+        transform.position = currentPosition;
     }
 
 
