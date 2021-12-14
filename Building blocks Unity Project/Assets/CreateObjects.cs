@@ -5,9 +5,9 @@ using UnityEngine;
 public class CreateObjects : MonoBehaviour
 {
 
-    public int createObject = 0;
+    public int createSteam = 0;
 
-    public GameObject myPrefab;
+    public GameObject SteamPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +18,11 @@ public class CreateObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (createObject >= 2)
+        if (createSteam >= 2)
         {
-            createObject -= 2;
+            createSteam -= 2;
 
-            Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            Instantiate(SteamPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
         }
 
 

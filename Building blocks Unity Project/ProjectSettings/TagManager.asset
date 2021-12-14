@@ -7,6 +7,23 @@ TagManager:
   - Object 1
   - Object 2
   - Object 3
+  - Fire
+  - Water
+  - Earth
+  - Air
+  - Heat
+  - Steam
+  - Mud
+  - Cloud
+  - lightning
+  - Glass
+  - Clay
+  - Brick
+  - Building
+  - Smoke
+  - Food
+  - Objective
+  - Offering
   layers:
   - Default
   - TransparentFX

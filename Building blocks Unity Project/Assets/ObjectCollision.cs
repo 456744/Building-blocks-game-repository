@@ -17,10 +17,10 @@ public class ObjectCollision : MonoBehaviour
     {
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        if (collision.gameObject.tag == "Object 1" || collision.gameObject.tag == "Object 2")
+        if (collision.gameObject.tag == "Fire" || collision.gameObject.tag == "Water")
         {
             //If the GameObject has the same tag as specified, create a prefab object
-            progress.createObject++;
+            progress.createSteam++;
         }
     }
 }
