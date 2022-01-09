@@ -3,7 +3,20 @@ guid: aca26e3fb663b4c46bd5f826da49c83c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - HeatPrefab: {fileID: 3868960498229007779, guid: b8921d1b144a428468da67388174bb0f, type: 3}
+  - SteamPrefab: {fileID: 1716845498851767852, guid: 54759135fdd38f44d93579bfeec49bf2, type: 3}
+  - MudPrefab: {fileID: 6764592587352219713, guid: 2ab723ce2ba5ebc4c8092f3ced22770d, type: 3}
+  - CloudPrefab: {fileID: 7782629571525838842, guid: 3f260a74cb258d54096775b44f5f344d, type: 3}
+  - LightningPrefab: {fileID: 2956829433724315667, guid: 3b4fc0fd30dd3b1459aa2d41ce4ed8ae, type: 3}
+  - GlassPrefab: {fileID: 3171831745346052673, guid: 3aacd7d11f68cd74a9e67fa70c95f70e, type: 3}
+  - SandPrefab: {fileID: 5227596412506239234, guid: fad547896ebdbd24c8ff3eae73464469, type: 3}
+  - ClayPrefab: {fileID: 5727200193121211998, guid: 922a5d7cb38cbc244bd6a0e9750b1e93, type: 3}
+  - BrickPrefab: {fileID: 2223488587418505336, guid: a8977ab31a2796c4689303a090d57488, type: 3}
+  - BuildingPrefab: {fileID: 5874055959254191469, guid: 1cc85b4e32446454f916943e7ff8e633, type: 3}
+  - SmokePrefab: {fileID: 3227599335580642269, guid: 3b571ca30a218ae419ca81658ac4b4c0, type: 3}
+  - FoodPrefab: {fileID: 6206645444757655914, guid: 4fcde867a3b915345ad206f217dfc5f9, type: 3}
+  - OfferingPrefab: {fileID: 3733068844263291150, guid: fd0c69bb7ec7dda46808d756060e9e97, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
