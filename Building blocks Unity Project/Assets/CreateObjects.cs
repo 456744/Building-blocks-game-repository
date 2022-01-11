@@ -60,7 +60,7 @@ public class CreateObjects : MonoBehaviour
     public AudioSource Clip;
 
 
-    // Update is called once per frame
+    // each if statement waits for the variable to be added to by both colliding objects and then resets said variable, makes the correct prefab within the proper area then plays a sound effect
     void Update()
     {
         if (createHeat >= 2)

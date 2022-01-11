@@ -11,6 +11,7 @@ public class ObjectCollision : MonoBehaviour
 
     private void Start()
     {
+        //finds the object creator object and the object attatched to the player that is used to hold objects
         progress = GameObject.Find("ObjectCreator").GetComponent<CreateObjects>();
 
         Hold = GameObject.Find("Hold object");
@@ -114,6 +115,7 @@ public class ObjectCollision : MonoBehaviour
 
     private void OnMouseDown()
     {
+        //when an object is clicked it is attatched to the player object to help move the objects and when an attatched object is clicked it is detatched
         if (transform.parent == null)
         {
             gameObject.transform.parent = Hold.transform;

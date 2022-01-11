@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // when the screen is clicked move onto the first level
     private void OnMouseDown()
     {
         SceneManager.LoadScene("Level 1");

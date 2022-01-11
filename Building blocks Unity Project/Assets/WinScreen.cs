@@ -12,6 +12,8 @@ public class WinScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        // waits a short while and the moves onto the next scene
         count++;
         if (count >= 1500)
         {

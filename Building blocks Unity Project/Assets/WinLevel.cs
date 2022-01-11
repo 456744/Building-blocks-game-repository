@@ -10,7 +10,7 @@ public class WinLevel : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
 
-        //Checks if the desired object was created
+        //Checks if the desired object was created and if so moves onto the next level
         if (collision.gameObject.tag == "Objective")
         {
             SceneManager.LoadScene(Level);

@@ -19,6 +19,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void Start()
     {
+        //gets the players y
         startingY = transform.position.y;
     }
 
@@ -30,6 +31,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+        //keeps the player facing the right direction
         if(direction.magnitude >= 0.1f)
         {
             float targetAngel = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -40,6 +42,7 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+        //uses the players y possition from the start to keep them on the same level and prevent them floating
         Vector3 currentPosition = transform.position;
         currentPosition.y = startingY;
         transform.position = currentPosition;
