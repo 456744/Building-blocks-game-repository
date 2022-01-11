@@ -57,6 +57,8 @@ public class CreateObjects : MonoBehaviour
 
     public GameObject OfferingPrefab;
 
+    public AudioSource Clip;
+
 
     // Update is called once per frame
     void Update()
@@ -66,6 +68,8 @@ public class CreateObjects : MonoBehaviour
             createHeat -= 2;
 
             Instantiate(HeatPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createSteam >= 2)
@@ -73,6 +77,8 @@ public class CreateObjects : MonoBehaviour
             createSteam -= 2;
 
             Instantiate(SteamPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createMud >= 2)
@@ -80,6 +86,8 @@ public class CreateObjects : MonoBehaviour
             createMud -= 2;
 
             Instantiate(MudPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createCloud >= 2)
@@ -87,6 +95,8 @@ public class CreateObjects : MonoBehaviour
             createCloud -= 2;
 
             Instantiate(CloudPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createLightning >= 2)
@@ -94,6 +104,8 @@ public class CreateObjects : MonoBehaviour
             createLightning -= 2;
 
             Instantiate(LightningPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createGlass >= 2)
@@ -101,6 +113,8 @@ public class CreateObjects : MonoBehaviour
             createGlass -= 2;
 
             Instantiate(GlassPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createSand >= 2)
@@ -108,6 +122,8 @@ public class CreateObjects : MonoBehaviour
             createSand -= 2;
 
             Instantiate(SandPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createClay >= 2)
@@ -115,6 +131,8 @@ public class CreateObjects : MonoBehaviour
             createClay -= 2;
 
             Instantiate(ClayPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createBrick >= 2)
@@ -122,6 +140,8 @@ public class CreateObjects : MonoBehaviour
             createBrick -= 2;
 
             Instantiate(BrickPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createBuilding >= 2)
@@ -129,6 +149,8 @@ public class CreateObjects : MonoBehaviour
             createBuilding -= 2;
 
             Instantiate(BuildingPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createSmoke >= 2)
@@ -136,6 +158,8 @@ public class CreateObjects : MonoBehaviour
             createSmoke -= 2;
 
             Instantiate(SmokePrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createFood >= 2)
@@ -143,6 +167,8 @@ public class CreateObjects : MonoBehaviour
             createFood -= 2;
 
             Instantiate(FoodPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
         if (createOffering >= 2)
@@ -150,6 +176,8 @@ public class CreateObjects : MonoBehaviour
             createOffering -= 2;
 
             Instantiate(OfferingPrefab, new Vector3(Random.Range(0, 5), 5, Random.Range(0, 5)), Quaternion.identity);
+
+            Clip.Play(0);
         }
 
 
